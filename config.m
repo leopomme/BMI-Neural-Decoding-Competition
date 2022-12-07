@@ -1,0 +1,23 @@
+% Brain Machine Interfaces - Neural Decoder
+% TEAM Prime_Mates
+% Authors: Sergio Gosalvez
+% Imperial College London 2022
+
+% Add different part folders to path
+
+addpath('PreProcessing/');
+addpath('Classification/');
+addpath('Trajectory/');
+addpath('Data/');
+
+
+% Set deafault graphic settings
+
+set(groot,  'DefaultLineLineWidth', 2, ...
+            'DefaultTextInterpreter', 'LaTeX', ...
+            'DefaultAxesFontSize', 40, ...
+            'DefaultLegendInterpreter', 'LaTeX', ...
+            'DefaultAxesLineWidth', 1.5, ...
+            'DefaultStemLineWidth', 2.5, ...
+            'DefaultLegendFontSize',40,...
+            'DefaultFigureColor','w');
